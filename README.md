@@ -4,6 +4,6 @@
 
 ### Accounts
 
-+ Github:[dooooooooinggggg](https://github.com/dooooooooinggggg)
++ Github: [dooooooooinggggg](https://github.com/dooooooooinggggg)
 
-+ Blog:[はてなブログ](http://www.ishikawa.tech/)
++ Blog: [はてなブログ](http://www.ishikawa.tech/)
