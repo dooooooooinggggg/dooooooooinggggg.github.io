@@ -13,28 +13,75 @@
 
 ## Me
 
-+ 2015-04 - 現在 慶應義塾大学環境情報学部
+- 2015-04 - 現在 慶應義塾大学環境情報学部
 
-+ 2016-04 - 現在 [SFC-RG](https://rg.sfc.keio.ac.jp/) Arch
+- 2016-04 - 現在 [SFC-RG](https://rg.sfc.keio.ac.jp/) Arch
 
-+ 2016-10 - 現在 株式会社Candle Engineer
+- 2016-10 - 現在 株式会社Candle Engineer
+
+## Individual Projects
+
+- [Conway's Game of Life - x86-64 assembly (WIP autumn 2017)](https://github.com/dooooooooinggggg/lifegame)
+
+## Main Interests
+
+- OS
+
+    - Linux
+
+- Security
+
+## Skills
+
+- Go
+
+- C
+
+- Python
+
+- JavaScript
+
+    - Node
+
+    - jQuery
+
+- Assembly
+
+    - x86-64
+
+- Common Lisp
+
+- PHP
+
+    - CakePHP
+
+    - Laravel
+
+- Ruby
+
+    - Ruby on Rails
+
+- SQL
+
+    - MySQL
+
 
 ## Accounts
 
-+ [TechBlog](http://www.ishikawa.tech/)
+- [TechBlog](http://www.ishikawa.tech/)
 
-+ [Github](https://github.com/dooooooooinggggg)
+- [Github](https://github.com/dooooooooinggggg)
 
-+ [Qiita](https://qiita.com/dooooooooinggggg)
+- [Qiita](https://qiita.com/dooooooooinggggg)
 
-+ [Linkedin](https://www.linkedin.com/in/tatsunori-ishikawa/)
+- [Linkedin](https://www.linkedin.com/in/tatsunori-ishikawa/)
 
-+ [Wantedly](https://www.wantedly.com/users/18456082)
+- [Wantedly](https://www.wantedly.com/users/18456082)
 
-+ [Ja.StackOverFlow](https://ja.stackoverflow.com/users/28070/dooooooooinggggg)
+- [Ja.StackOverFlow](https://ja.stackoverflow.com/users/28070/dooooooooinggggg)
 
 ## SNS Accounts
 
-+ [Twitter](https://twitter.com/ggggniooooooood)
+- [Twitter](https://twitter.com/ggggniooooooood)
 
-+ [Instagram](https://www.instagram.com/dooooooooinggggg/)
+- [Instagram](https://www.instagram.com/dooooooooinggggg/)
