@@ -13,11 +13,11 @@
 
 ## Me
 
-- [2015-04 - Now]: Keio University SFC(慶應義塾大学環境情報学部)
+- 【2015-04 - Now】Keio University SFC(慶應義塾大学環境情報学部)
 
-- [2016-04 - Now]: [SFC-RG](https://rg.sfc.keio.ac.jp/) Arch
+- 【2016-04 - Now】[SFC-RG](https://rg.sfc.keio.ac.jp/) Arch
 
-- [2016-10 - Now]: Candle.inc Engineer
+- 【2016-10 - Now】Candle.inc Engineer
 
 ## Individual Projects
 
