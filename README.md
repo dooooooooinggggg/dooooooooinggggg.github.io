@@ -91,3 +91,9 @@
 - [Twitter](https://twitter.com/ggggniooooooood)
 
 - [Instagram](https://www.instagram.com/dooooooooinggggg/)
+
+## Wish List
+
+- [Books](http://amzn.asia/i1DrNK3)
+
+- [Others](http://amzn.asia/41EHsAP)
