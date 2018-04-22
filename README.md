@@ -92,6 +92,10 @@
 
 - [Instagram](https://www.instagram.com/dooooooooinggggg/)
 
+## Contacts
+
+- [Gmail](dooooooooinggggg2@gmail.com)
+
 ## Wish List
 
 - [Books](http://amzn.asia/i1DrNK3)
