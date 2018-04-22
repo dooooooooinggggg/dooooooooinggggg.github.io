@@ -15,13 +15,13 @@
 
 - 2015-04 - Now / Keio University SFC(慶應義塾大学環境情報学部)
 
-- 2016-04 - Now / [SFC-RG](https://rg.sfc.keio.ac.jp/) Arch
+- 2016-04 - Now / [SFC-RG](https://rg.sfc.keio.ac.jp/){:target="_blank"} Arch
 
 - 2016-10 - Now / Candle.inc Engineer
 
 ## Individual Projects
 
-- [Conway's Game of Life - x86-64 assembly (WIP autumn 2017)](https://github.com/dooooooooinggggg/lifegame)
+- [Conway's Game of Life - x86-64 assembly (WIP autumn 2017)](https://github.com/dooooooooinggggg/lifegame){:target="_blank"}
 
 ## Main Interests
 
