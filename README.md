@@ -32,7 +32,7 @@
 
 + [Wantedly](https://www.wantedly.com/users/18456082)
 
-#### SNS Accounts
+### SNS Accounts
 
 + [Twitter](https://twitter.com/ggggniooooooood)
 
