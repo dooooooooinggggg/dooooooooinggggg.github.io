@@ -94,7 +94,7 @@
 
 ## Contacts
 
-- [Gmail](dooooooooinggggg2@gmail.com)
+- [Gmail](<mailto:dooooooooinggggg2@gmail.com>)
 
 ## Wish List
 
