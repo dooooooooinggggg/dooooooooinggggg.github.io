@@ -76,23 +76,23 @@
 
 ## Accounts
 
-- [TechBlog](http://www.ishikawa.tech/)
+- [TechBlog](http://www.ishikawa.tech/){:target="_blank"}
 
-- [Github](https://github.com/dooooooooinggggg)
+- [Github](https://github.com/dooooooooinggggg){:target="_blank"}
 
-- [Qiita](https://qiita.com/dooooooooinggggg)
+- [Qiita](https://qiita.com/dooooooooinggggg){:target="_blank"}
 
-- [Linkedin](https://www.linkedin.com/in/tatsunori-ishikawa/)
+- [Linkedin](https://www.linkedin.com/in/tatsunori-ishikawa/){:target="_blank"}
 
-- [Wantedly](https://www.wantedly.com/users/18456082)
+- [Wantedly](https://www.wantedly.com/users/18456082){:target="_blank"}
 
-- [Ja.StackOverFlow](https://ja.stackoverflow.com/users/28070/dooooooooinggggg)
+- [Ja.StackOverFlow](https://ja.stackoverflow.com/users/28070/dooooooooinggggg){:target="_blank"}
 
 ## SNS Accounts
 
-- [Twitter](https://twitter.com/ggggniooooooood)
+- [Twitter](https://twitter.com/ggggniooooooood){:target="_blank"}
 
-- [Instagram](https://www.instagram.com/dooooooooinggggg/)
+- [Instagram](https://www.instagram.com/dooooooooinggggg/){:target="_blank"}
 
 ## Contacts
 
@@ -100,6 +100,6 @@
 
 ## Wish List
 
-- [Books](http://amzn.asia/i1DrNK3)
+- [Books](http://amzn.asia/i1DrNK3){:target="_blank"}
 
-- [Others](http://amzn.asia/41EHsAP)
+- [Others](http://amzn.asia/41EHsAP){:target="_blank"}
