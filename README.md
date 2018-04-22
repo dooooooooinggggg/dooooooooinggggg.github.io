@@ -25,11 +25,11 @@
 
 ## Main Interests
 
+- Security
+
 - OS
 
     - Linux
-
-- Security
 
 ## Skills
 
