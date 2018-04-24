@@ -33,7 +33,7 @@
 
 ## Skills
 
-### Experienced Programing Language
+### Experienced Programing Languages And FrameWorks
 
 - Go
 
