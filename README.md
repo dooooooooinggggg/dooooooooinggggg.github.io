@@ -27,6 +27,10 @@
 
 - Security
 
+- Compiler
+
+- Architecture
+
 - OS
 
     - Linux
