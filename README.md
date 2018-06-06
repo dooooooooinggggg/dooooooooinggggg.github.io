@@ -80,7 +80,7 @@
 
 ## Accounts
 
-- [TechBlog](http://www.ishikawa.tech/){:target="_blank"}
+- [TechBlog](http://blog.ishikawa.tech/){:target="_blank"}
 
 - [Github](https://github.com/dooooooooinggggg){:target="_blank"}
 
