@@ -17,7 +17,7 @@
 
 - 2016-04 - Now / [SFC-RG](https://rg.sfc.keio.ac.jp/){:target="_blank"} Arch
 
-- 2016-10 - Now / Candle.inc Engineer
+- 2016-10 - 2018-06 / Candle.inc Engineer
 
 ## Individual Projects
 
