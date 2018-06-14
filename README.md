@@ -38,6 +38,7 @@
 - OS
 
     - Linux
+    - UNIX V6
 
 ## Skills
 
