@@ -19,6 +19,8 @@
 
 - 2016-10 - 2018-06 / Candle.inc Engineer
 
+***Please check wantedly page*** -> [Wantedly](https://www.wantedly.com/users/18456082){:target="_blank"}
+
 ## Individual Projects
 
 - [Conway's Game of Life - x86-64 assembly (WIP autumn 2017)](https://github.com/dooooooooinggggg/lifegame){:target="_blank"}
