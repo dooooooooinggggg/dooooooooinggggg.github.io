@@ -85,7 +85,7 @@
 
 ## Accounts
 
-- [TechBlog](http://blog.ishikawa.tech/){:target="_blank"}
+- [TechBlog](https://blog.ishikawa.tech/){:target="_blank"}
 
 - [Github](https://github.com/dooooooooinggggg){:target="_blank"}
 
