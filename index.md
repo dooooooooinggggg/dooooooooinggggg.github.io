@@ -9,8 +9,6 @@
     gtag('config', 'UA-105143295-2');
 </script>
 
-<!-- index -->
-
 # About
 
 ## Me
