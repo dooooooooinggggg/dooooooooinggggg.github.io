@@ -17,11 +17,15 @@
 
 - 2016-04 - Now / [SFC-RG](https://rg.sfc.keio.ac.jp/){:target="_blank"} Arch
 
-- 2016-10 - Now / Candle.inc Engineer
+- 2016-10 - 2018-06 / Candle.inc Engineer
+
+***Please check wantedly page*** -> [Wantedly](https://www.wantedly.com/users/18456082){:target="_blank"}
 
 ## Individual Projects
 
 - [Conway's Game of Life - x86-64 assembly (WIP autumn 2017)](https://github.com/dooooooooinggggg/lifegame){:target="_blank"}
+
+- [SFC-RG Term 遠隔ベアメタルPCデバッグのための， RDMAを用いた 物理メモリ監視手法の提案と実装(現在，中間発表が終了)](https://github.com/dooooooooinggggg/Term2018/blob/master/slide/term2018_half_slide.pdf){:target="_blank"}
 
 ## Main Interests
 
@@ -34,6 +38,7 @@
 - OS
 
     - Linux
+    - UNIX V6
 
 ## Skills
 
@@ -80,7 +85,7 @@
 
 ## Accounts
 
-- [TechBlog](http://blog.ishikawa.tech/){:target="_blank"}
+- [TechBlog](https://blog.ishikawa.tech/){:target="_blank"}
 
 - [Github](https://github.com/dooooooooinggggg){:target="_blank"}
 
@@ -92,7 +97,7 @@
 
 - [Ja.StackOverFlow](https://ja.stackoverflow.com/users/28070/dooooooooinggggg){:target="_blank"}
 
-- [LeetCode](https://leetcode.com/dooooooooinggggg/){:target="_blank"}
+- [LeetCode](https://leetcode.com/dooooooooinggggg/){:target="_blank"} ([Github](https://github.com/dooooooooinggggg/LeetCode){:target="_blank"})
 
 ## SNS Accounts
 
