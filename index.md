@@ -2,11 +2,11 @@
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-105143295-2"></script>
 <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-    gtag('config', 'UA-105143295-2');
+  gtag('config', 'UA-105143295-2');
 </script>
 
 # About
@@ -31,14 +31,11 @@
 
 - Security
 
-- Compiler
-
 - Architecture
 
 - OS
-
-    - Linux
-    - UNIX V6
+  - Linux
+  - UNIX V6
 
 ## Skills
 
@@ -52,31 +49,31 @@
 
 - JavaScript
 
-    - Node
+  - Node
 
-    - jQuery
+  - jQuery
 
 - Assembly
 
-    - x86-64
+  - x86-64
 
 - Lisp
 
-    - Common Lisp
+  - Common Lisp
 
 - PHP
 
-    - CakePHP
+  - CakePHP
 
-    - Laravel
+  - Laravel
 
 - Ruby
 
-    - Ruby on Rails
+  - Ruby on Rails
 
 - SQL
 
-    - MySQL
+  - MySQL
 
 ### Infrastructure
 
