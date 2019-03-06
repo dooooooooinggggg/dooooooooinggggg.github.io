@@ -13,8 +13,13 @@
 
 ## Me
 
+### Academic
+
 - 2015-04 - Now / Keio University SFC
-- 2016-04 - Now / [SFC-RG](https://rg.sfc.keio.ac.jp/){:target="_blank"} Arch
+- 2016-04 - Now / [SFC-RG](https://rg.sfc.keio.ac.jp/){:target="_blank"} Arch Lab
+
+### Business Career.
+
 - 2016-10 - 2018-06 / Candle.inc Engineer
 - 2018-08 - 2018-08 / CyberAgent, Inc. FRESH LIVE Engineer(1 month)
 
@@ -41,6 +46,8 @@
 - C
 - Python
 - JavaScript
+  - Vue
+    - Vuex
   - Node
   - jQuery
 - Assembly
@@ -49,8 +56,8 @@
   - Common Lisp
 - Kotlin
 - PHP
-  - CakePHP
   - Laravel
+  - CakePHP
 - Ruby
   - Ruby on Rails
 - SQL
