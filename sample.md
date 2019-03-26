@@ -1,132 +1,385 @@
-# 前提条件
+あくまで自分用のメモ。
 
-- 独自ドメインを持っている
+今後の実装の時に、簡単に振り返るための記事。
 
-- Cloudflareのアカウント
+[プログラマは皆どのようにしてLisperと化して行くのか?](http://valvallow.blogspot.jp/2010/03/lisper.html) <- この記事を読んで興味を持ったのが始めようと思ったきっかけ。
 
-- Githubのアカウント
+進めている本は、`Land Of Lisp`
 
-# 手順
 
-## Githubにて、リポジトリを作成する。
 
-Githubにて、リポジトリを作成する。
+[asin:4873115876:detail]
 
-この時、`"ユーザー名" +.github.io`という名前にする。(例えばユーザー名が、aaaだったら、`aaa.github.io`)
 
-また、リポジトリは、`public`にする。つまり、オープンソースの静的なサイトということ。
 
-## 内容を作る。
+## 所感
 
-内容を作る。
+今までのどんな言語とも書き方が違う。
 
-この時点で、もうすでに作ったURLにはアクセスできる。
+イメージでは、各命令は、シェルスクリプトの、コマンドのような印象を受けた。
 
-デフォルトでは、READMEの内容(MarkDownをレンダリングしたもの)が公開されている。
+あとは、全てがリストである。
 
-自分の場合は、HTMLを書くのが面倒だったため、そのまま`README.md`をそのまま拡張していった。
+この二つを意識して、書いて行きたい。
 
-この場合は、`<head></head>`などの要素は自動で生成される。
+## defparameter
 
-また、仮に、`index.html`を作成した場合、そっちが優先される。この場合、`<head></head>`などの要素は自分で書かねばならない。
+グローバル変数を定義する。
 
-## デザインを変更し、CNAMEを登録する。
+このような変数を、ドップレベル定義と呼ぶ。
 
-リポジトリの上部メニュー
+これを使って定義された変数は、同じようにまた`defparameter`が使われると上書きされる。
 
-`Code  Issues  Pull requests  Projects  Wiki  Insights  Settings`
-
-となっているところから、`Settings`を選択する。
-
-下の方に行くと、`Change Theme`となっているところがある。
-
-ここを押してテーマを選ぶ。そんなに種類はないが、MarkDownで書いたページならこのデザインを適用してくれる。
-
-また、その下にある、`Custom domain`というところに、自分の独自ドメインを登録する(プロトコルはいらない)。
-
-この記事を書いている時点で、Githubのみで、独自ドメインかつhttpsを実現するのは厳しそう
-
-```
-Unavailable for your site because you have a custom domain configured
+```lisp
+(defparameter *foo* 5)
 ```
 
-みたいなメッセージが出る。
+## defvar
 
-そこで、CloudFlareを使う。
+こちらは、上と違って、定義した変数の値が変更されない。
 
-もしまだDNSがCloudFlareになっていない人がいたら、移管させておく。
 
-ドメインの登録ができたら、レコードの登録をしていく。
-
-自分の場合は、諸事情により、wwwと無印でアクセス先が異なるため、今回は無印のみの登録。
-
-`CNAME ishikawa.tech dooooooooinggggg.github.io`
-
-で、登録完了。この時、`HTTP Proxy`を`ON`にしておく。
-
-## CloudFlareでのCryptoの設定
-
-項目ごとに、パラメータを紹介する。
-
-### SSL
-
-```
-Full
+```lisp
+(defvar *foo* 5)
 ```
 
-### Edge Certificates
 
-いじらない。
 
-### Always use HTTPS
+## let
 
-```
-On
-```
+local変数の定義、ブロック内でのみ有効。
 
-### HTTP Strict Transport Security (HSTS)
-
-```
-Status: On
-Max-Age: 6 months (recommended)
-Include subdomains: Off
-Preload: On
-No-sniff: On
+```lisp
+(let ((a 5)
+    (b 6))
+    (+ a b))
 ```
 
-### Authenticated Origin Pulls
+## flet
 
-```
-On
-```
+local関数の定義、ブロック内でのみ有効。
 
-### Require Modern TLS
-
-```
-On
-```
-
-### Opportunistic Encryption
-
-```
-On
+```lisp
+(flet (
+    (f (n)
+        (+ n 10))
+    )
+    (f 5))
 ```
 
-### Automatic HTTPS Rewrites
+書式は、
 
-```
-On
-```
-
-## Page Rules
-
-httpにアクセスがきたら、httpsに転送するように、かく。
-
-```
-http://ishikawa.tech
--> Always Use HTTPS
+```lisp
+(flet ((関数名 (引数)
+    関数本体...s))
+    本体....)
 ```
 
-以上で、設定は完了。少し反映に時間がかかるが、しばらくすると、無事`https`なサイトが公開されている。
+;; ブロックの初めで、関数を定義する(fという名前)
+;; これを、処理本体で、利用している。
 
-[https://ishikawa.tech](https://ishikawa.tech)
+;; 一つのfletコマンドで、複数のローカル関数を一緒に宣言するには、単にコマンドの最初の部分に複数の宣言を書く。
+
+```lisp
+(flet (
+    (f (n)
+        (+ n 10))
+    (g (n)
+        (- n 3)))
+    (g (f 5)))
+```
+
+## labels
+
+ローカル関数の中で、同じスコープで定義されるローカル関数名を使用したい場合は、labelsコマンド
+
+形式は fletと同じ
+
+再帰？
+
+```lisp
+(labels (
+    (a (n)
+        (+ n 5))
+    (b (n)
+        (+ (a n) 6)))
+    (b 10))
+```
+
+出力->21
+
+## 比較
+
+```lisp
+;; eq
+(eq 'fooo 'foOo)
+;; T
+```
+
+要は、大文字と小文字を区別しない。
+
+## 関数を食べる関数
+
+```lisp
+;; 関数を食べる関数
+(defun my-length(list)
+    (if list
+        (1 + (my-length (cdr list)))
+        0))
+
+(my-length '(list with four symbols))
+```
+
+再帰の簡単な実装。
+
+## car cdr
+
+`car`は、リストの一番目の要素を取り出す、リスト関数。
+
+`cdr`は、リストの二番目以降を取り出す、リスト関数。
+
+これらは、組み合わせて使って行くことができる。
+
+caadadarみたいな使いかたもできる。
+
+これらを内部で組み合わせた関数もたくさんある。
+
+## コードモード データモード
+
+\`をつけることで、データモードになる。
+
+,をつけることで、データモードの中でも、一時的にコードモードになる。
+
+## if
+
+```lisp
+(if ( = ( + 1 2) 3)
+    'yup
+    'nope)
+
+(if ( = ( + 1 2) 4)
+    'yup
+    'nope)
+```
+
+やるべきではないかもしれないが、これをC言語で書いてみると、
+
+```c
+if ( (1 + 2) == 3 ){
+    return 1;
+}else{
+    return 0;
+}
+
+if ( (1 + 2) == 4 ){
+    return 1;
+}else{
+    return 0;
+}
+
+
+```
+
+このようになる。
+
+## progn
+
+```lisp
+(defvar *number-was-odd* nil)
+
+(if (oddp 5)
+
+    ;; 本来ifでは一つのことしかできないが、prognを使って、複数のことをしている。
+    (progn(setf *number-was-odd* t)
+        'odd-number)
+    'even-number)
+
+*number-was-odd*
+
+```
+
+コメントアウトにもあるように、通常、ifでは、一つのことしかできないが、`progn`を使うことで、複数のことができるようになる。
+
+## when unless
+
+```lisp
+(defvar *number-is-odd* nil)
+
+;; ifではなく、whenを使うことによって、暗黙のprogn
+(when (oddp 5)
+    (setf *number-is-odd* t)
+    'odd-number)
+
+*number-is-odd*
+
+(unless (oddp 4)
+    (setf *number-is-odd* nil)
+    'even-number)
+
+*number-is-odd*
+
+```
+
+if文では、通常、評価がtrueだった場合には、その式しか実行されない(当然)
+
+lispでは、whenを使うことで、暗黙のprognとなる。(イメージ的には、`if (true) {hoge....}`)
+
+その逆の`unless`は、`if (false) {hoge....}`のような感じ。
+
+## cond
+
+condは、カッコをたくさん使う代わりに、三目のprognが使えて、複数の分岐もかける。
+それに加えて、続けていくつもの条件を評価することもできる。
+
+```lisp
+(defvar *arch-enemy* nil)
+
+(defun pudding-eater (person)
+    (cond ((eq person 'henry) (setf *arch-enemy* 'stupid-lisp-alien)
+            '(curse you lisp alien - you ate my pudding))
+        ((eq person 'johnny) (setf *arch-enemy* 'unless-old-johnny)
+            '(i hope you choked on my pudding johnny))
+        (t '(why you eat my pudding stranger?))))
+
+(pudding-eater 'johnny)
+;; (I HOPE YOU CHOKED ON MY PUDDING JOHNNY)
+
+*arch-enemy*
+;; UNLESS-OLD-JOHNNY
+
+(pudding-eater 'geroge-clooney)
+;; (WHY YOU EAT MY PUDDING STRANGER?)
+
+(pudding-eater 'henry)
+;; (CURSE YOU LISP ALIEN - YOU ATE MY PUDDING)
+```
+
+## case
+
+他の条件分岐として、
+
+```lisp
+(defun pudding-eater (person)
+    (case person
+        ((henry) (setf *arch-enemy* 'stupid-lisp-alien)
+            '(curse you lisp alien - you ate my pudding))
+        ((johnny) (setf *arch-enemy* 'useless-old-johnny)
+            '(i hope you choked on my pudding johnny))
+        (otherwise '(why you eat my pudding stranger ?))))
+```
+
+このように、`case`を使うことができる。
+
+## member
+
+```lisp
+(if (member nil '(3 4 nil 6))
+    'nil-is-in-the-list
+    'nil-is-not-in-the-list)
+
+(if (member nil '(3 4 nil))
+    'nil-is-in-the-list
+    'nil-is-not-in-the-list)
+
+```
+
+memberを使うことで、ある要素が、そのリストに含まれているかを確認することができる。
+
+しかし、ここが少し特殊で、
+
+```lisp
+(member 1 '(3 4 1 5))
+```
+
+とすると、かえってくる値は、trueではなく、
+
+```lisp
+;; (1 5)
+```
+
+となる。
+
+こうなる理由に関しては、本を読んでもらえればわかるが、lispの条件の評価の仕方によるものである。
+
+lispが偽であると判定する値には、実は4種類しかない。
+
+## 偽
+
+```lisp
+'()
+()
+'nil
+nil
+```
+
+以上の4こを除き、全て真となる。つまり、それぞれの関数は、真である、という情報以外に、好きなものを返すことができる。
+
+また、上の例でいうと、もしこの`member`が見つけたリスト自身を返した場合、
+
+通常は上手く行くが、
+
+```lisp
+(if (member nil '(3 4 nil 6))
+    'nil-is-in-the-list
+    'nil-is-not-in-the-list)
+```
+
+この例でいくと、`nil`が返ってきてしまい、あるにもかかわらず、結果が、偽と判定されてしまう。
+
+しかし、この実装のおかげで、返ってくる値は、nilではなく、(nil 6)、もしnilが最後の要素だったとしても、
+
+(nil)が返ってくるため、真と判定できる。
+
+## eq
+
+```lisp
+;; シンボル同士は、eqで比較する。
+(defparameter *fruit* 'apple)
+
+(cond ((eq *fruit* 'apple) 'its-an-apple)
+    (eq *fruit* 'orange) 'its-an-orange)
+
+;; シンボル同士で、eqを使えるのに、eqを使わないのは、いけてない
+
+;; シンボル同士の比較
+(equal 'apple 'apple)
+;; T
+
+;; リスト同士の比較
+(equal (list 1 2 3) (list 1 2 3))
+;; T
+
+;; 異なる方法で作られたリストでも、中身が同じなら、同一とみなされる。
+
+;; 整数同士の比較
+(equal 5 5)
+
+
+;; eqlとか、equalpなどは、紛らわしい。
+
+;; ここら辺は後で調べに帰って来ればいいか。
+```
+
+lispには、等しいかどうかを調べる関数が、4つほどある。上に書いた通りで、それぞれ微妙に条件が異なる。
+
+## まとめ
+
+今まで触ったどんな言語とも書き方が異なるため、写経を積極的に行なっている。
+
+書かないと、本当に意味がわからない。
+
+その時に書いて理解してみたものをここに書き連ねたため、漏れなどもあるかもしれない。
+
+今後実装を進めていく際に、必要になりそうだったら、この記事に追記して行きたい。
+
+続き↓
+
+
+
+[http://blog.ishikawa.tech/entry/2018/04/19/030157:embed:cite]
+
+
+
+
+
+
