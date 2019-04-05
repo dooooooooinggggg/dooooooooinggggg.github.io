@@ -16,7 +16,7 @@
 ### Academic
 
 - 2015-04 - Now / Keio University SFC
-- 2016-04 - Now / [SFC-RG](https://rg.sfc.keio.ac.jp/){:target="_blank"} Arch Lab
+- 2016-04 - Now / [SFC-RG](https://rg.sfc.keio.ac.jp/){:target="_blank"} [Arch Lab](https://arch.sfc.wide.ad.jp/){:target="_blank"}
 
 ### Business
 
