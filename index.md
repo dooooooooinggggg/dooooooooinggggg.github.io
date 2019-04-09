@@ -20,7 +20,7 @@
 
 ### Business
 
-- 2016-10 - 2018-06 / Candle.inc Engineer
+- 2016-10 - 2018-06 / Candle.inc Engineer(Backend, Infrastructure)
 - 2018-08 - 2018-08 / CyberAgent, Inc. FRESH LIVE Engineer(1 month)
 
 ***Please check wantedly page*** -> [Wantedly](https://www.wantedly.com/users/18456082){:target="_blank"}
@@ -88,7 +88,7 @@
 
 - [Gmail](<mailto:dooooooooinggggg2@gmail.com>)
 
-## Wish List
+## Wish List :)
 
 - [Books](http://amzn.asia/i1DrNK3){:target="_blank"}
 - [Others](http://amzn.asia/41EHsAP){:target="_blank"}
