@@ -46,8 +46,6 @@
 - C
 - Python
 - JavaScript
-  - Vue
-    - Vuex
   - Node
   - jQuery
 - Assembly
