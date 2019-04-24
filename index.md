@@ -23,7 +23,7 @@
 - 2016-10 - 2018-06 / Candle.inc Engineer(Backend, Infrastructure)
 - 2018-08 - 2018-08 / CyberAgent, Inc. FRESH LIVE Engineer(1 month)
 
-***Please check wantedly page*** -> [Wantedly](https://www.wantedly.com/users/18456082){:target="_blank"}
+***Please check this page*** -> [Resume](/resume){:target="_blank"}
 
 ## Individual Projects
 
