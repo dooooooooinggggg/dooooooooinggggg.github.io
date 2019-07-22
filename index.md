@@ -41,7 +41,7 @@
 
 ## Skills
 
-### Experienced Programing Languages And FrameWorks
+### Experienced Programing Languages And Frameworks
 
 - Go
 - C
