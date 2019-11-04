@@ -45,7 +45,7 @@
 
 - Go
 - C
-- Python
+- Python3
 - JavaScript
   - Node
   - jQuery
@@ -65,6 +65,7 @@
 ### Infrastructure
 
 - AWS
+- GCP
 
 ## Accounts
 
