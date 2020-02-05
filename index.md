@@ -16,15 +16,15 @@
 ### Academic
 
 - 2015-04 - Now / Keio University SFC
-- 2016-04 - Now / [SFC-RG](https://rg.sfc.keio.ac.jp/){:target="_blank"} [Arch Lab](https://arch.sfc.wide.ad.jp/){:target="_blank"}
+  - [SFC-RG](https://rg.sfc.keio.ac.jp/){:target="_blank"} [Arch Lab](https://arch.sfc.wide.ad.jp/){:target="_blank"}
 
 ### Business
 
 - 2016-10 - 2018-06 / Candle.inc Engineer(Backend, Infrastructure)
 - 2018-08 - 2018-08 / CyberAgent, Inc. FRESH LIVE Engineer(1 month)
-- 2019-05 - Now / Flatt, Inc. Engineer
+- 2019-05 - Now / Flatt, Inc. Engineer(Security and Software)
 
-***Please check this page*** -> [Resume](/resume){:target="_blank"}
+<!-- ***Please check this page*** -> [Resume](/resume){:target="_blank"} -->
 
 ## Individual Projects
 
@@ -37,7 +37,6 @@
 - Architecture
 - OS
   - Linux
-  - UNIX V6
 
 ## Skills
 
@@ -59,6 +58,7 @@
   - CakePHP
 - Ruby
   - Ruby on Rails
+  - Sinatra
 - SQL
   - MySQL
 
