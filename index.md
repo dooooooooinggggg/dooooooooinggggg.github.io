@@ -86,7 +86,7 @@
 
 ## Contacts
 
-- [Gmail](<mailto:dooooooooinggggg2@gmail.com>)
+- [Gmail](<mailto:dooooooooinggggg@gmail.com>)
 
 ## Wish List :)
 
