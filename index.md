@@ -25,7 +25,7 @@
 
 - 2016-10 - 2018-06 / Candle.inc Engineer(Backend, Infrastructure)
 - 2018-08 - 2018-08 / CyberAgent, Inc. FRESH LIVE Engineer(1 month)
-- 2019-05 - Now / Flatt, Inc. Engineer(Security and Software)
+- 2019-05 - Now / Flatt Security Inc. Engineer(Security and Software)
 
 ## Individual Projects
 
