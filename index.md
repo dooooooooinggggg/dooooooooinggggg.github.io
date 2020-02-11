@@ -11,6 +11,9 @@
 
 # About Me
 
+- Tatsunori Ishikawa
+- Security engineer, Software engineer(Backend)
+
 ## Career
 
 ### Academic
@@ -24,8 +27,6 @@
 - 2018-08 - 2018-08 / CyberAgent, Inc. FRESH LIVE Engineer(1 month)
 - 2019-05 - Now / Flatt, Inc. Engineer(Security and Software)
 
-<!-- ***Please check this page*** -> [Resume](/resume){:target="_blank"} -->
-
 ## Individual Projects
 
 - [Conway's Game of Life - x86-64 assembly (WIP autumn 2017)](https://github.com/dooooooooinggggg/lifegame){:target="_blank"}
@@ -33,14 +34,36 @@
 
 ## Main Interests
 
-- Security
-- Architecture
-- OS
-  - Linux
+- Security(low level)
+- Computer Architecture
+- OS(Linux)
+
+## Accounts
+
+- [TechBlog](https://blog.ishikawa.tech/){:target="_blank"}
+- [Github](https://github.com/dooooooooinggggg){:target="_blank"}
+- [Linkedin](https://www.linkedin.com/in/tatsunori-ishikawa/){:target="_blank"}
+- [SlideShare](https://www.slideshare.net/tatsunoriishikawa1){:target="_blank"}
+- [LeetCode](https://leetcode.com/dooooooooinggggg/){:target="_blank"} ([Github](https://github.com/dooooooooinggggg/LeetCode){:target="_blank"})
+
+<!--
+- [Qiita](https://qiita.com/dooooooooinggggg){:target="_blank"}
+- [Ja.StackOverFlow](https://ja.stackoverflow.com/users/28070/dooooooooinggggg){:target="_blank"}
+-->
+
+## SNS Accounts
+
+- [Twitter](https://twitter.com/ggggniooooooood){:target="_blank"}
+- [Instagram](https://www.instagram.com/dooooooooinggggg/){:target="_blank"}
+- [BookLog](https://booklog.jp/users/dooooooooinggggg){:target="_blank"}
+
+## Contacts
+
+- [Gmail](<mailto:dooooooooinggggg@gmail.com>)
 
 ## Skills
 
-### Experienced Programing Languages And Frameworks
+### Programing Languages And Frameworks
 
 - Go
 - C
@@ -66,27 +89,6 @@
 
 - AWS
 - GCP
-
-## Accounts
-
-- [TechBlog](https://blog.ishikawa.tech/){:target="_blank"}
-- [Github](https://github.com/dooooooooinggggg){:target="_blank"}
-- [Qiita](https://qiita.com/dooooooooinggggg){:target="_blank"}
-- [Linkedin](https://www.linkedin.com/in/tatsunori-ishikawa/){:target="_blank"}
-- [SlideShare](https://www.slideshare.net/tatsunoriishikawa1){:target="_blank"}
-- [Wantedly](https://www.wantedly.com/users/18456082){:target="_blank"}
-- [Ja.StackOverFlow](https://ja.stackoverflow.com/users/28070/dooooooooinggggg){:target="_blank"}
-- [LeetCode](https://leetcode.com/dooooooooinggggg/){:target="_blank"} ([Github](https://github.com/dooooooooinggggg/LeetCode){:target="_blank"})
-- [BookLog](https://booklog.jp/users/dooooooooinggggg){:target="_blank"}
-
-## SNS Accounts
-
-- [Twitter](https://twitter.com/ggggniooooooood){:target="_blank"}
-- [Instagram](https://www.instagram.com/dooooooooinggggg/){:target="_blank"}
-
-## Contacts
-
-- [Gmail](<mailto:dooooooooinggggg@gmail.com>)
 
 ## Wish List :)
 
