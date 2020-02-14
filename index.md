@@ -73,13 +73,13 @@
   - jQuery
 - Assembly
   - x86-64
-- Lisp
+- Lisp(Beginner)
   - Common Lisp
-- Kotlin
+- Kotlin(Beginner)
 - PHP
   - Laravel
   - CakePHP
-- Ruby
+- Ruby(Beginner)
   - Ruby on Rails
   - Sinatra
 - SQL
