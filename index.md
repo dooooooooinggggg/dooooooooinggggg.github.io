@@ -29,8 +29,8 @@
 
 ## Individual Projects
 
-- [Conway's Game of Life - x86-64 assembly (WIP autumn 2017)](https://github.com/dooooooooinggggg/lifegame){:target="_blank"}
-- [SFC-RG Term RDMAを用いた，遠隔ベアメタルマシンデバッグのための論理メモリの参照](https://github.com/dooooooooinggggg/term2018docs/blob/master/term2018autumn.pdf){:target="_blank"}
+- [SFC-RG WIP: Conway's Game of Life - x86-64 assembly (autumn 2017)](https://github.com/dooooooooinggggg/lifegame){:target="_blank"}
+- [SFC-RG TERM: RDMAを用いた，遠隔ベアメタルマシンデバッグのための論理メモリの参照](https://github.com/dooooooooinggggg/term2018docs/blob/master/term2018autumn.pdf){:target="_blank"}
 
 ## Main Interests
 
