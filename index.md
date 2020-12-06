@@ -47,7 +47,7 @@
 - [LeetCode](https://leetcode.com/ishikawa_tech/){:target="_blank"} ([Github](https://github.com/dooooooooinggggg/LeetCode){:target="_blank"})
 
 <!--
-- [Qiita](https://qiita.com/dooooooooinggggg){:target="_blank"}
+- [Qiita](https://qiita.com/ishikawa_tech){:target="_blank"}
 - [Ja.StackOverFlow](https://ja.stackoverflow.com/users/28070/dooooooooinggggg){:target="_blank"}
 -->
 
