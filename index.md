@@ -48,7 +48,6 @@
 
 <!--
 - [Qiita](https://qiita.com/ishikawa_tech){:target="_blank"}
-- [Ja.StackOverFlow](https://ja.stackoverflow.com/users/28070/dooooooooinggggg){:target="_blank"}
 -->
 
 ## SNS Accounts
