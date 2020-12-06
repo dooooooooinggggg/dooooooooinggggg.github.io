@@ -55,7 +55,7 @@
 
 - [Twitter](https://twitter.com/ishikawa_tech){:target="_blank"}
 - [Instagram](https://www.instagram.com/dooooooooinggggg/){:target="_blank"}
-- [BookLog](https://booklog.jp/users/dooooooooinggggg){:target="_blank"}
+- [BookLog](https://booklog.jp/users/ishikawaa){:target="_blank"}
 
 ## Contacts
 
