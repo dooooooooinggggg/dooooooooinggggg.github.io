@@ -58,7 +58,7 @@
 
 ## Contacts
 
-- [Gmail](<mailto:dooooooooinggggg@gmail.com>)
+- [Mail](<mailto:tatsunori@ishikawa.tech>)
 
 ## Skills
 
