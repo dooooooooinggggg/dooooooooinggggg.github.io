@@ -30,6 +30,8 @@ google_analytics: UA-105143295-2
 
 # Build settings
 theme: minima
+# theme: jekyll-theme-hacker
+# theme: jekyll-theme-midnight
 plugins:
   - jekyll-feed
 # Exclude from processing.
