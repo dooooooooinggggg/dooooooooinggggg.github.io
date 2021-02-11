@@ -5,5 +5,6 @@ layout: default
 <div class="home">
   {%- if page.title -%}
   <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%} {{ content }} Last updated: {{ site.time }}
+  {%- endif -%} {{ content }}
+  <p>Last updated: {{ site.time }}</p>
 </div>
