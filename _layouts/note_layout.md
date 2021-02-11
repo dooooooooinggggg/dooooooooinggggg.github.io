@@ -4,6 +4,5 @@ layout: layout
 
 {{ content }}
 
-- [Index](/notes)
-- [CTF](/notes/ctf)
-  - [binary](/notes/ctf/binary)
+{% capture notes_include %}{% include notes.md %}{% endcapture %}
+{{ notes_include | markdownify }}
