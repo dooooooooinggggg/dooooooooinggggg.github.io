@@ -15,10 +15,9 @@ gem "minima", "~> 2.5"
 # gem "jekyll-theme-midnight"
 # gem "jekyll-theme-dark-minimal"
 # gem "jekyll-theme-developer"
-gem "jekyll-theme-dijkstra" # Good
+# gem "jekyll-theme-dijkstra" # Good
 # gem "jekyll-theme-github"
 # gem "jekyll-theme-hyde-dark"
-# gem "jekyll-theme-minimal-dark"
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.

@@ -29,7 +29,7 @@ github_username: dooooooooinggggg
 google_analytics: UA-105143295-2
 
 # Build settings
-theme: jekyll-theme-dijkstra
+theme: minima
 plugins:
   - jekyll-feed
 # Exclude from processing.
