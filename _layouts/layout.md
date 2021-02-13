@@ -7,7 +7,6 @@ layout: default
   <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%} {{ content }}
 
-  <p>Last updated: {{ page.last_modified_at }}</p>
-  <!-- <p>Last updated Repository: {{ site.time }}</p> -->
+  <p>Last updated: {{ site.time }}</p>
 
 </div>
