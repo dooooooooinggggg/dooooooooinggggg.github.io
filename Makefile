@@ -10,4 +10,5 @@ bundle_serve:
 dev: bundle_install bundle_serve
 
 prd: bundle_install
-	JEKYLL_ENV=production bundle exec jekyll build -d production_site
+
+	JEKYLL_ENV=production bundle exec jekyll build -d build/dooooooooinggggg.github.io
