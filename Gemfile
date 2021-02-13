@@ -13,7 +13,7 @@ gem "minima", "~> 2.5"
 
 # gem "jekyll-theme-dark-minimal"
 # gem "jekyll-theme-developer"
-gem "jekyll-theme-dijkstra" # Good
+# gem "jekyll-theme-dijkstra" # Good
 # gem "jekyll-theme-github"
 # gem "jekyll-theme-hyde-dark"
 
