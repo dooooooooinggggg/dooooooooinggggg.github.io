@@ -11,9 +11,9 @@ gem "jekyll", "3.9.0"
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 gem "minima", "~> 2.5"
 
-gem "jekyll-theme-dark-minimal"
+# gem "jekyll-theme-dark-minimal"
 # gem "jekyll-theme-developer"
-# gem "jekyll-theme-dijkstra" # Good
+gem "jekyll-theme-dijkstra" # Good
 # gem "jekyll-theme-github"
 # gem "jekyll-theme-hyde-dark"
 
