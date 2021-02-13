@@ -8,6 +8,6 @@ layout: default
   {%- endif -%} {{ content }}
 
   <p>Last updated: {{ page.last_modified_at }}</p>
-  <p>Last updated Repository: {{ site.time }}</p>
+  <!-- <p>Last updated Repository: {{ site.time }}</p> -->
 
 </div>
