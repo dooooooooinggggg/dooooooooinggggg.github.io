@@ -61,25 +61,30 @@ permalink: /
 
 ### Programing Languages And Frameworks
 
-- Go
 - C
+- Go
 - Python3
 - JavaScript
   - Node
   - jQuery
 - Assembly
   - x86-64
-- Lisp(Beginner)
-  - Common Lisp
-- Kotlin(Beginner)
 - PHP
   - Laravel
   - CakePHP
-- Ruby(Beginner)
-  - Ruby on Rails
-  - Sinatra
 - SQL
   - MySQL
+
+#### 勉強中 or 過去に少し触ったことがある
+
+- (勉強中)モダンなJavaScriptまわり
+  - TypeScript
+  - Vue
+- Lisp
+  - Common Lisp
+- Ruby
+  - Ruby on Rails
+- Kotlin
 
 ### Infrastructure
 
