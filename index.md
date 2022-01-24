@@ -13,16 +13,16 @@ permalink: /
 
 ## Career
 
-### Academic
-
-- 2015-04 - Now / Keio University SFC
-  - [Arch Lab](https://arch.sfc.wide.ad.jp/){:target="_blank"} in [SFC-RG](https://rg.sfc.keio.ac.jp/){:target="_blank"}
-
 ### Business
 
 - 2016-10 - 2018-06 / Candle.inc Engineer(Backend, Infrastructure)
 - 2018-08 - 2018-08 / CyberAgent, Inc. FRESH LIVE Engineer(1 month)
-- 2019-05 - Now / Flatt Security Inc. Engineer(Security and Software)
+- 2019-05 - Now / Flatt Security Inc. Engineer(Security / Software)
+
+### Academic
+
+- 2015-04 - Now / Keio University SFC
+  - [Arch Lab](https://arch.sfc.wide.ad.jp/){:target="_blank"} in [SFC-RG](https://rg.sfc.keio.ac.jp/){:target="_blank"}
 
 ## Individual Projects
 
